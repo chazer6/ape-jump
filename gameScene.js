@@ -88,7 +88,7 @@ export default class gameScene extends Phaser.Scene {
             boardText = this.add.text(400, 20, 'Your best: ' + gameState.highScore, { fontSize: '18px', fill: '#000' }).setOrigin(0.5);
         }
 
-        let devTime = this.add.text(400, 40, 'Dev best: 14.6', { fontSize: '18px', fill: '#000' }).setOrigin(0.5);
+        let devTime = this.add.text(400, 40, 'Dev best: 13.3', { fontSize: '18px', fill: '#000' }).setOrigin(0.5);
 
 
         bullets = this.physics.add.group();

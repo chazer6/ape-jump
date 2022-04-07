@@ -22,7 +22,7 @@ export default class endtScene extends Phaser.Scene {
 
         this.add.text(400,320,'Time: ' + Math.round(gameState.gameRuntime*10)/10,{ fontSize: '50px', fill: '#000' }).setOrigin(0.5,0.5);
 
-        this.add.text(400,350,'Best Time: ' + gameState.highScore,{ fontSize: '50px', fill: '#000' }).setOrigin(0.5,0.5);
+        this.add.text(400,360,'Best Time: ' + gameState.highScore,{ fontSize: '50px', fill: '#000' }).setOrigin(0.5,0.5);
 
     }
 
