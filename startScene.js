@@ -12,7 +12,8 @@ export default class startScene extends Phaser.Scene {
 
     create(){
         this.add.sprite(400,200,'snub').setScale(0.6);
-        /*this.add.text(400, 100, 'Ape Jump', { fontSize: '40px', fill: '#000' }).setOrigin(0.5,0.5);
+        /* local host locations
+        this.add.text(400, 100, 'Ape Jump', { fontSize: '40px', fill: '#000' }).setOrigin(0.5,0.5);
         this.add.text(400, 300, 'Platform to reach the coin,', { fontSize: '25px', fill: '#000' }).setOrigin(0.5,0.5);
         this.add.text(400, 335, 'try to get the best time!', { fontSize: '25px', fill: '#000' }).setOrigin(0.5,0.5);
         this.add.text(400, 400, 'Direction keys to move,', { fontSize: '25px', fill: '#000' }).setOrigin(0.5,0.5);
